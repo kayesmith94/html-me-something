@@ -1,3 +1,16 @@
-p{
-    color:green;
+
+body {
+  background-color: lightblue;
 }
+
+h1 {
+  color: white;
+  text-align: center;
+}
+/* need a background image for h2 */
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
