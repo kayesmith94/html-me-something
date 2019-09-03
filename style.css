@@ -5,7 +5,7 @@ body {
     background-size: contain;
     background-color: lightblue;
     text-align: center;
-    margin: 5% 20%;
+    margin: 5% 16%;
 }
 
 ul {
@@ -28,7 +28,7 @@ h1 {
 }
 h2{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.7em;
+    font-size: 1.8em;
     font-style: italic;
     font-weight: 600;
     text-decoration: underline overline;
@@ -36,15 +36,15 @@ h2{
 
 p {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 20px;
+  font-size: 1.7em;
 }
 
 article{
     display: inline-block;
     background-color: rgb(240, 198, 205);
     border-radius: 2%;
-    padding: 2%;
-    margin: 3%
+    padding: 1%;
+    margin: 2%;
 }
 
 footer{
@@ -53,7 +53,6 @@ footer{
 .footerDiv{
     display: inline-block;
     background-color: rgba(255, 254, 253, 0.5);
-    
     padding: 1px 8px 1px 8px;
 }
 
@@ -65,18 +64,15 @@ header{
 }
 
 img {
-    width: 350px;
+    width: 33%;
+    
     height: 450px;
     object-fit: cover;
   }
 
-.contain {
-    width: 700px;
-    height: 500px;
-}
-
-.post{
-    margin: 3% 20% 1% 20%;
+.bigimage {
+    width: 100%;
+    object-fit: contain;
 }
 
 .icon{
