@@ -1,11 +1,29 @@
 
 body {
-  background-color: lightblue;
+    background-image: url("images/orbit.jpg");
+    background-position: center;
+    background-size: contain;
+    background-color: lightblue;
+    text-align: center;
+    margin: 5% 20%;
 }
+
+ul {
+    list-style: none;   
+    content: 20% 20% 20% 20%; /*top right bottom left */
+    padding: 20px;
+  }
+
+li:before {
+    content: '🌙';
+    margin-left: -20px;
+    margin-right: 10px;
+    }
 
 h1 {
   color: white;
-  text-align: center;
+  font-style: normal
+
 }
 /* need a background image for h2 */
 
@@ -14,3 +32,42 @@ p {
   font-size: 20px;
 }
 
+article{
+    display: inline-block;
+    background-color: rgb(240, 198, 205);
+    border-radius: 2%;
+    padding: 2%;
+    margin: 3%
+}
+
+footer{
+    color: bisque
+
+}
+
+header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 600;
+}
+
+img {
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+  }
+
+.contain {
+    width: 700px;
+    height: 500px;
+}
+
+.post{
+    margin: 3% 20% 1% 20%;
+}
+
+.icon{
+    width: 15px;
+    height: 15px;
+}
