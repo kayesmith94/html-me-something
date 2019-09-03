@@ -22,10 +22,17 @@ li:before {
 
 h1 {
   color: white;
-  font-style: normal
+  font-style: normal;
+  font-size: 2em
 
 }
-/* need a background image for h2 */
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.7em;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: underline overline;
+}
 
 p {
   font-family: 'Courier New', Courier, monospace;
@@ -42,7 +49,12 @@ article{
 
 footer{
     color: bisque
-
+}
+.footerDiv{
+    display: inline-block;
+    background-color: rgba(255, 254, 253, 0.5);
+    
+    padding: 1px 8px 1px 8px;
 }
 
 header{
